@@ -1,0 +1,23 @@
+.top-nav a {
+  margin-left: 1rem;
+  padding: 1rem;
+}
+.picture {
+  display: inline-block;
+  padding-left: 3rem;
+}
+.uhddata {
+  display: inline-block;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+  justify-content: center;
+  vertical-align: text-bottom;
+}
+.list {
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+footer {
+  padding-left: 2rem;
+}

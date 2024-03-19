@@ -1,0 +1,72 @@
+html {
+  background-color: rgb(221, 227, 228);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+  display: flexbox;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  height: fit-content;
+  background-color: white;
+  text-align: center;
+  border: 0.1rem;
+  border-color: black;
+  border-style: solid;
+}
+
+.data {
+  display: flexbox;
+  text-align: left;
+  vertical-align: middle;
+  line-height: 3rem;
+  text-indent: 1rem;
+  background-color: black;
+  height: 3rem;
+  margin: auto;
+  color: white;
+}
+
+.orders {
+  display: flexbox;
+  text-align: center;
+  margin: auto;
+  line-height: 2rem;
+  background-color: rgb(106, 140, 147);
+  color: white;
+  height: 2rem;
+  width: 90%;
+}
+table {
+  padding-top: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  text-align: left;
+}
+th,
+td {
+  text-align: left;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.status {
+  display: flexbox;
+  width: max-content;
+  text-align: center;
+  color: white;
+  padding: 0.1rem 0.25rem;
+  border-radius: 0.25rem;
+}
+.shipped {
+  background-color: rgb(85 168 90);
+}
+.processing {
+  background-color: rgb(231 80 3);
+}
+.pending {
+  background-color: rgb(5 167 237);
+}
